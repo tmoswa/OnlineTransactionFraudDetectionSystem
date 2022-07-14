@@ -50,7 +50,7 @@ class Permissions extends Seeder
               Permission::create(['name' => $permission]);
 
          }
-        $exis_create=ExistingAccount::create(['acc_number'=>'5162610431645257','national_id'=>'29277135X07','phone_number'=>'0777791898','email'=>'tevinttogo@gmail.com']);
+        $exis_create=ExistingAccount::create(['acc_number'=>'5162610431645257','national_id'=>'29277135X07','phone_number'=>'0777791898','email'=>'Machinguradiver@gmail.com']);
         $exis_create=ExistingAccount::create(['acc_number'=>'5160610481635357','national_id'=>'29277135X08','phone_number'=>'0714382713','email'=>'tevinttogo@gmail.com']);
         $exis_create=ExistingAccount::create(['acc_number'=>'5163619485634997','national_id'=>'29277135X09','phone_number'=>'0775146476','email'=>'tevinttogo@gmail.com']);
     }
